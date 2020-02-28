@@ -30,8 +30,7 @@ const addReview = (event) => {
     let errorBox = document.querySelector("#error");
     let reviewList = document.querySelector("ul");
     let inputTextbox = document.querySelector("#review_input");
-    let movieName = document.querySelector("#movie_name").innerText
-        // let boldTitle = movieName.bold() 
+    let movieName = document.querySelector("#movie_name").innerText;
         if(selectBox.value === "null"){
             errorBox.innerText = "Please submit a review for a movie";
             inputTextbox.value = " ";
@@ -46,10 +45,10 @@ const addReview = (event) => {
 }}
 const getMovieDetails = async() => {
     let selectBox = document.querySelector("#select_box");
-    let movieName = document.querySelector("#movie_name")
-    let releaseYear = document.querySelector("#release_year")
-    let description = document.querySelector("#description")
-    let errorBox = document.querySelector("#error")
+    let movieName = document.querySelector("#movie_name");
+    let releaseYear = document.querySelector("#release_year");
+    let description = document.querySelector("#description");
+    let errorBox = document.querySelector("#error");
     let id = selectBox.value;
     let url = `https://ghibliapi.herokuapp.com/films/${id}`
     let selectedMovie = await axios.get(url)

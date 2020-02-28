@@ -4,6 +4,7 @@
 1. Using [Studio Ghibli API](https://ghibliapi.herokuapp.com/#)
 
 [x]Endpoints
+
     * /films - for all films (20 films)
     * .title - for name
     * .release_date - for year released

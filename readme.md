@@ -1,4 +1,5 @@
-<h3>Simple HTML webpage with API requests and CSS styling. </h3> ![wireframe](./wireframe.png)
+<h3>Simple HTML webpage with API requests and CSS styling. </h3> 
+![Wireframe](./wireframe.png)
 
 **JS**
 1. Using [Studio Ghibli API](https://ghibliapi.herokuapp.com/#)

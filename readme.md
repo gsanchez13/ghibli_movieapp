@@ -2,8 +2,7 @@
 
 **JS**
 1. Using [Studio Ghibli API](https://ghibliapi.herokuapp.com/#)
-Endpoints
-https://ghibliapi.herokuapp.com/
+*Endpoints*
     * /films - for all films (20 films)
     * .title - for name
     * .release_date - for year released

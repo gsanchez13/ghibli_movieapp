@@ -24,24 +24,25 @@ https://ghibliapi.herokuapp.com/
 7. Film title in bold and review not bold.
 
 **CSS**
-** Body **
-1. Monospace font
-        - Header should have "Lucida Console", Monaco, monospace
-        - Main Area will have "Courier New", Courier, monospace
-2. "Lavender" background
-3. In a column centered on the page width wise
-** Header **
-1. Header should contain (image) and (h1) tags
-2. Width is 70% and height 150 px
-3. Image and header text should be horizontally oriented
-4. Totoro and title should be on opposite sides of each other with *center* positioning in relation to the height
-5. Totoro image should be the same height as the header (150px)
-6. Header should have 30px margin on the bottom and padding of 10px on all sides
-7. Header background should be (skyblue)
-** Main Area **
-1. Contains all other content (select/ description div/ form/ reviews)
-2. Width should be 60%
-3. Content should be in a (column) with a (left orientation)
-** Review Text Input ** 
-1. Text(input) should have an explicit width of 400 px
+    Body
+    1. Monospace font
+            - Header should have "Lucida Console", Monaco, monospace
+            - Main Area will have "Courier New", Courier, monospace
+    2. "Lavender" background
+    3. In a column centered on the page width wise
+    Header
+    1. Header should contain (image) and (h1) tags
+    2. Width is 70% and height 150 px
+    3. Image and header text should be horizontally oriented
+    4. Totoro and title should be on opposite sides of each other with *center* positioning in relation to the height
+    5. Totoro image should be the same height as the header (150px)
+    6. Header should have 30px margin on the bottom and padding of 10px on all sides
+    7. Header background should be (skyblue)
+Main Area
+    1. Contains all other content (select/ description div/ form/ reviews)
+    2. Width should be 60%
+    3. Content should be in a (column) with a (left orientation)
+
+Review Text Input 
+    1. Text(input) should have an explicit width of 400 px
     

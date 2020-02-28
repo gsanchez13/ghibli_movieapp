@@ -1,25 +1,22 @@
 <h3>Simple HTML webpage with API requests and CSS styling. </h3> 
 
 **JS**
-1. Using [Studio Ghibli API](https://ghibliapi.herokuapp.com/#)
-
-[x]Endpoints
-
-    * /films - for all films (20 films)
-    * .title - for name
-    * .release_date - for year released
-    * .description - for description
+1. Using [Studio Ghibli API](https://ghibliapi.herokuapp.com/#) create endpoints
+  * /films - for all films (20 films)
+  * .title - for name
+  * .release_date - for year released
+  * .description - for description
 2. Function with eventListener for a select option chosen that will clear HTML and reset to given class.
-    - Might require an if statement for each individual option with HTTPRequest of info for each selected value.
+   * Might require an if statement for each individual option with HTTPRequest of info for each selected value.
 3. Create a new selector option per movie before page loads to have all options ready.
 
 **HTML**
 1. Image of studio Ghibli logo
 2. Header that says "Ghibli Review App"
 3. Select box that contains the titles of each movie availible in the API as well as a default blank section
-    - Make sure the value/ class of the first select option is null/ nothing/ empty
+    * Make sure the value/ class of the first select option is null/ nothing/ empty
 4. An empty div that will hold an h3 title tag, release year p and description p
-    - When users select an option, the div will be populated/ replaced with information 
+    * When users select an option, the div will be populated/ replaced with information 
 5. A form that includes a text input and a submit input that allows users to submit their review to the page
 6. A ul under the form that will list li all reviews submitted by users
 7. Film title in bold and review not bold.
@@ -28,8 +25,8 @@
 
 [x] Body
 1. Monospace font
-            - Header should have "Lucida Console", Monaco, monospace
-            - Main Area will have "Courier New", Courier, monospace
+   * Header should have "Lucida Console", Monaco, monospace
+   * Main Area will have "Courier New", Courier, monospace
 2. "Lavender" background
 3. In a column centered on the page width wise
 

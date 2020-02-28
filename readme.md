@@ -2,10 +2,10 @@
 
 **JS**
 1. Using [Studio Ghibli API](https://ghibliapi.herokuapp.com/#) create endpoints
-  * /films - for all films (20 films)
-  * .title - for name
-  * .release_date - for year released
-  * .description - for description
+   * /films - for all films (20 films)
+   * .title - for name
+   * .release_date - for year released
+   * .description - for description
 2. Function with eventListener for a select option chosen that will clear HTML and reset to given class.
    * Might require an if statement for each individual option with HTTPRequest of info for each selected value.
 3. Create a new selector option per movie before page loads to have all options ready.

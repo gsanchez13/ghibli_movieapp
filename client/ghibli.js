@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     selectBox.addEventListener("change", getMovieDetails, false);
 })
 const getMovieOptions =  async () => {
-    let moviesUrl = "https://ghibliapi.herokuapp.com/films"
-    let allMovies = await axios.get(moviesUrl)
-    let allMoviesArr = allMovies.data
+    let moviesUrl = "https://ghibliapi.herokuapp.com/films";
+    let allMovies = await axios.get(moviesUrl);
+    let allMoviesArr = allMovies.data;
         setOptions(allMoviesArr)
 }
 const setOptions = (arr) => {
@@ -31,17 +31,17 @@ const addReview = (event) => {
     let reviewList = document.querySelector("ul");
     let inputTextbox = document.querySelector("#review_input");
     let movieName = document.querySelector("#movie_name").innerText;
-        if(selectBox.value === "null"){
+    let inputText = inputTextbox.value;
+        if(selectBox.value === "null" || inputText.trim() === ""){
             errorBox.innerText = "Please submit a review for a movie";
             inputTextbox.value = " ";
         }
         else {
-            let inputText = inputTextbox.value;
             let newReviewItem = document.createElement("li");
              newReviewItem.innerHTML = `<b>${movieName}</b>: ${inputText}`;
              reviewList.appendChild(newReviewItem);
-             inputTextbox.value = " ";
-             errorBox.innerText = " ";
+             inputTextbox.value = "";
+             errorBox.innerText = "";
 }}
 const getMovieDetails = async() => {
     let selectBox = document.querySelector("#select_box");
@@ -51,7 +51,7 @@ const getMovieDetails = async() => {
     let errorBox = document.querySelector("#error");
     let id = selectBox.value;
     let url = `https://ghibliapi.herokuapp.com/films/${id}`
-    let selectedMovie = await axios.get(url)
+    let selectedMovie = await axios.get(url);
     let selectedMovieName = selectedMovie.data.title;
     let selectedMovieYear = selectedMovie.data.release_date;
     let selectedMovieBlurb = selectedMovie.data.description;

@@ -46,5 +46,5 @@
 3. Content should be in a (column) with a (left orientation)
 
 **Review Text Input**
-1. Text(input) should have an explicit width of 400 px
+1. Text(input) should have an explicit width of 400px
     

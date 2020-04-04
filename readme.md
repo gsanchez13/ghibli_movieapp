@@ -1,5 +1,6 @@
 # Simple HTML webpage with API requests and CSS styling.
 
+![wireframe](./wireframe.png)
 ## JS
 1. Using [Studio Ghibli API](https://ghibliapi.herokuapp.com/#) create endpoints
    * /films - for all films (20 films)

@@ -1,6 +1,6 @@
-<h3>Simple HTML webpage with API requests and CSS styling. </h3> 
+# Simple HTML webpage with API requests and CSS styling.
 
-**JS**
+## JS
 1. Using [Studio Ghibli API](https://ghibliapi.herokuapp.com/#) create endpoints
    * /films - for all films (20 films)
    * .title - for name
@@ -10,7 +10,7 @@
    * Might require an if statement for each individual option with HTTPRequest of info for each selected value.
 3. Create a new selector option per movie before page loads to have all options ready.
 
-**HTML**
+## HTML
 1. Image of studio Ghibli logo
 2. Header that says "Ghibli Review App"
 3. Select box that contains the titles of each movie availible in the API as well as a default blank section
@@ -21,16 +21,16 @@
 6. A ul under the form that will list li all reviews submitted by users
 7. Film title in bold and review not bold.
 
-**CSS**
+## CSS
 
-[x] Body
+[x] **Body**
 1. Monospace font
    * Header should have "Lucida Console", Monaco, monospace
    * Main Area will have "Courier New", Courier, monospace
 2. "Lavender" background
 3. In a column centered on the page width wise
 
-[x] Header
+[x] **Header**
 1. Header should contain (image) and (h1) tags
 2. Width is 70% and height 150 px
 3. Image and header text should be horizontally oriented
@@ -39,11 +39,11 @@
 6. Header should have 30px margin on the bottom and padding of 10px on all sides
 7. Header background should be (skyblue)
 
-[x] Main Area
+[x] **Main Area**
 1. Contains all other content (select/ description div/ form/ reviews)
 2. Width should be 60%
 3. Content should be in a (column) with a (left orientation)
 
-[x] Review Text Input
+[x] **Review Text Input**
 1. Text(input) should have an explicit width of 400 px
     
